@@ -9,4 +9,6 @@ def main():
         break
       print(f"成功导关 {b}")
       b+=1
-  
+
+if __name__ == "__main__":
+  main()
