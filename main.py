@@ -1,6 +1,6 @@
 import random
-b=0
 def main():
+  b=0
   a=input("请输入你的导关次数。>")
   try:
     a=int(a)
@@ -8,7 +8,7 @@ def main():
     print("你他妈能不能用数字而不是傻逼的字符串？")
     return
   while 1:
-      if random.randint(int(a),int(a)**random.randint(int(a))) == random.randint(int(a),int(a)**114):
+      if random.randint(int(a),int(a)**random.randint(int(a),114514)) == random.randint(int(a),int(a)**114):
         print("导关失败。你几把炸了。")
         break
       print(f"成功导关 {b}")
