@@ -2,7 +2,11 @@ import random
 b=0
 def main():
   a=input("请输入你的导关次数。>")
-  if 122 > ord(a) > 97 and  65 < ord(a) <90:
+  try:
+    a=int(a)
+  except:
+    print("你他妈能不能用数字而不是傻逼的字符串？")
+    return
     while 1:
       if random.randint(int(a),int(a)**random.randint(int(a))) == random.randint(int(a),int(a)**114):
         print("导关失败。你几把炸了。")
