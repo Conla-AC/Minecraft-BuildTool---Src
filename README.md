@@ -9,4 +9,4 @@
 
 # 这是真的吗
 
-假的，这tm是空仓库 你真以为你野爹会把buildtool开源？ 做梦吧你。
+真的， 运行main.py 然后在导关的过程中意淫buildtool src 就有了
