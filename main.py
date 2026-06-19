@@ -7,7 +7,7 @@ def main():
   except:
     print("你他妈能不能用数字而不是傻逼的字符串？")
     return
-    while 1:
+  while 1:
       if random.randint(int(a),int(a)**random.randint(int(a))) == random.randint(int(a),int(a)**114):
         print("导关失败。你几把炸了。")
         break
